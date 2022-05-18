@@ -33,7 +33,7 @@ return(
               <Image
                 src={imgTopo} 
                 width="300"
-                height="385"             
+                height="385"          
               ></Image>
             </div>
           </section>
@@ -69,7 +69,7 @@ return(
         </p>
 
         <p>
-          Para te ajudar nessa jornada, preparamos um checklis 100% gratuito que vai mapear seu momento atual e te ajudar
+          <strong>Para te ajudar nessa jornada, preparamos um checklis 100%</strong> gratuito que vai mapear seu momento atual e te ajudar
           a dar os primeiros passos no mundo do empreendedorismo.
         </p>
     </section>
