@@ -10,6 +10,11 @@
   padding: 1rem
 }
 
+.chamadaTexto{
+  font-family: Nunito, sans-serif;
+  font-weight: 500;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;

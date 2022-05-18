@@ -6,6 +6,7 @@ import imgTopo from '../../../public/img/foto-topo.png'
 
 export default function Coragem(){
 return(
+<>  
 <header className={style.topo}>
   <div className="container">
     <div className="row "> 
@@ -35,10 +36,48 @@ return(
                 height="385"             
               ></Image>
             </div>
-          </section> 
+          </section>
+        <div className={style.chamadaTexto}>
+          <h2>Trabalhar no seu próprio negócio </h2>
+          <p> Esse sonho é possível sim! 
+           <strong> Basta planejamento, organização e uma dose de coragem</strong>
+          </p> 
+        </div>  
+        
       </main>
     </div>
   </div>
 </header>
+
+<main className="px-5">
+    <section>
+
+        
+        <p> <strong> Chega de desperdiçar seu tempo </strong> 
+          realizando o propósito de vida do seu chefe. A vida é curta demais para isso. 
+          Invista em você, corra atrás do que realmente te faz feliz. 
+        </p>
+
+        <p>
+          E nós temos a certeza de que a felicidade que você tanto sonha, pode ser alcançada 
+          por meio do empreendedorismo.
+        </p>
+
+        <p>
+          Você dona do próprio negócio, com horário flexível e alinhado ao seu estilo de vida, contribuindo com um mundo melhor,
+          a partir da sua missão e essência.
+        </p>
+
+        <p>
+          Para te ajudar nessa jornada, preparamos um checklis 100% gratuito que vai mapear seu momento atual e te ajudar
+          a dar os primeiros passos no mundo do empreendedorismo.
+        </p>
+    </section>
+
+    <section>
+        formulário de cadastro
+    </section>
+</main>
+</>
  )  
 }
