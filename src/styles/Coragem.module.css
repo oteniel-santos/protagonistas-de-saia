@@ -1,3 +1,4 @@
+/* Principal */
 .topo{
   background: url('../../public/img/img1-rosa.png') no-repeat;
   min-height: 100vh;
@@ -117,9 +118,7 @@
 
 
 
-/* @media  screen and (min-width: 576px) {
 
-} */
 
 
 @media  screen and (min-width: 768px) {
