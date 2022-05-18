@@ -16,9 +16,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Em <a href="https://www.instagram.com/protagonistasdesaia/">Construção</a>
         </h1>
-
-
-
       </main>
 
       <footer className={styles.footer}>

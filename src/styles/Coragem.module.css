@@ -1,0 +1,77 @@
+.topo{
+  background: url('../../public/img/img1-rosa.png') no-repeat;
+  min-height: 100vh;
+  background-position: center -10rem;
+  background-size: 150%;
+  background-size: cover;
+  text-align: center;
+  padding: 1rem
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  /* flex: 1; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo{
+  width: 200px;
+  height: 100px;
+  margin-bottom: 1.8rem;  
+}
+
+.subtitulo{
+  color: #7b1a55;
+  font-family: Nunito, sans-serif;
+  font-weight: 600;
+  
+}
+
+.imagemTopo{
+  margin-top: -3rem;
+}
+
+.botao{
+  background: #7b1a55;
+  border-radius: 50px;
+  padding: 15px 50px;
+  border: none;
+  margin-top: 2rem;
+  color: #f4f0f1;
+  font-weight: 600;
+}
+
+
+.Titulodestaque{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #444444;
+  line-height: 0.8em
+
+}
+
+.titulo{
+  color: #444444;
+  font-family:'Dancing Script' ;
+  font-size: 3.5rem;
+  line-height: 0.5em;
+  }
+
+
+
+
+@media  screen and (min-width: 576px) {
+  .topo {
+    background-position: 100% 0%;
+    background-color: red;
+  }
+}
+
+
+
+
+
