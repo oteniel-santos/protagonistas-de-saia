@@ -4,6 +4,8 @@ import style from '../../styles/Coragem.module.css'
 import logo from '../../../public/img/logo-topo.png'
 import imgTopo from '../../../public/img/foto-topo.png'
 import logoSvg from '../../../public/img/logo-svg.svg'
+import Link from 'next/link'
+// import {Link }from 'react-router-dom'
 
 export default function Coragem(){
 return(
@@ -17,6 +19,7 @@ return(
               <Image 
                   src={logo} 
                   layout="responsive"
+                  alt="Logo Protagonistas de Saia"
                   >
               </Image>
               </div>
@@ -34,7 +37,8 @@ return(
               <Image
                 src={imgTopo} 
                 width="300"
-                height="385"          
+                height="385"
+                alt="Foto das proprietárias da Protagonistas de Saia"          
               ></Image>
             </div>
           </section>
@@ -113,7 +117,7 @@ return(
         </label>
         <div className="form-row ">
           <div className="col-md-4 mb-1">
-              <select name="ind_easygoi_11" className="form-control" id="ind_easygoi_11" data-theme="c">
+              <select name="ind_easygoi_11" className="form-control d-none" id="ind_easygoi_11" data-theme="c">
             <option value="+93">
               Afeganist&#227;o (+93)
             </option>
@@ -804,13 +808,16 @@ return(
 <div className="container">
   <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div className="col-8 d-flex align-items-center mx-auto">
-      <a href="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      <Link href={"/"}> 
+       <div className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
         <Image 
           src={logoSvg}
           height="80"
           width="80"
+          alt="logo Protagonistas de Saia em svg"
           ></Image>
-      </a>
+         </div> 
+      </Link>
       <span className="mb-3 mb-md-0 text-muted">&copy; 2022 Protagonistas de Saia</span>
     </div>
 
