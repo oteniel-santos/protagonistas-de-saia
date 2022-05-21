@@ -18,17 +18,16 @@
   width: 6rem;
   height: 8rem;
   background-size: cover;
-  z-index: 2;
+  z-index: 0;
 }
 
 .topo::after{
   content:" ";
-  width: 100%;
+  width: 20%;
   height: 100%;
   position: absolute;
   bottom: 10%;
   right: 0;
-  
   background-image: 
     url('../../public/img/sementinhas-topo-2.png'), 
     url('../../public/img/linha-topo.png');
@@ -41,6 +40,8 @@
   background-repeat: no-repeat, no-repeat;    
   
 }
+
+
 
 .chamadaTexto{
   font-family: Nunito, sans-serif;
@@ -87,6 +88,8 @@
   color: #f4f0f1;
   font-weight: 600;
   margin: 0 auto;
+  z-index: 5;
+  
 }
 
 
@@ -146,6 +149,13 @@
         font-weight: 600;
         margin: 2rem auto;
         font-size: 1.2rem;
+        cursor: pointer;
+        text-decoration: none;
+        z-index: 1;
+      }
+
+      .chamadaTexto{
+        text-align: left;
       }
   }
 

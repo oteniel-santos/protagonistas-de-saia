@@ -15,20 +15,32 @@ return(
     <div className="row g-0 "> 
       {/* <main> */}
           <section className="col-md-7 col-lg-6 d-flex flex-column">
-            <div className=" text-md-start">
-            <div className={`${style.imgLogo} `}>  
-              <Image 
-                  src={logo} 
-                  layout="responsive"
-                  alt="Logo Protagonistas de Saia"
-                  >
-              </Image>
+            <div className=" text-md-start ">
+              <div className={`${style.imgLogo}  `}>  
+                <Image 
+                    src={logo} 
+                    layout="responsive"
+                    alt="Logo Protagonistas de Saia"
+                    >
+                </Image>
               </div>
-              <h2 className={style.subtitulo} >Checklist</h2>
-              <h1 className={style.title}>
-                  <span className={style.titulo}>Coragem para</span> <span className={style.Titulodestaque}>Empreender</span>
-              </h1>
-              <button className={`${style.botao} mb-4 `}>Quero meu checklist</button>
+              <div>
+                  <h2 className={style.subtitulo} >Checklist</h2>
+                  <h1 className={style.title}>
+                      <span className={style.titulo}>Coragem para</span> <span className={style.Titulodestaque}>Empreender</span>
+                  </h1>
+                    <Link href="#form">
+                      <button className={`${style.botao}  mb-4`}>
+                          Quero meu checklist
+                      </button>
+                    </Link>
+              </div>  
+            </div>  
+            <div className={`${style.chamadaTexto} d-none d-md-block`}>
+                <h2>Trabalhar no seu próprio negócio </h2>
+                <p> Esse sonho é possível sim! 
+                <strong> Basta planejamento, organização e uma dose de coragem</strong>
+                </p> 
             </div>    
           </section>
   
@@ -41,13 +53,15 @@ return(
                 alt="Foto das proprietárias da Protagonistas de Saia"          
               ></Image>
             </div>
+
           </section>
-        <div className={style.chamadaTexto}>
-          <h2>Trabalhar no seu próprio negócio </h2>
-          <p> Esse sonho é possível sim! 
-           <strong> Basta planejamento, organização e uma dose de coragem</strong>
-          </p> 
-        </div>  
+
+          <div className={`${style.chamadaTexto} d-block d-md-none text-md-start`}>
+                <h2>Trabalhar no seu próprio negócio </h2>
+                <p> Esse sonho é possível sim! 
+                <strong> Basta planejamento, organização e uma dose de coragem</strong>
+                </p> 
+            </div>  
         
       {/* </main> */}
     </div>
@@ -78,7 +92,8 @@ return(
         </p>
     </section>
    
-    <section className="container px-5">
+    <section className="container px-5 bg-light mt-4 pt-5">
+      <h2 id="form">Preencha seus dados abaixo para receber seu checklist</h2>
     <form method="post" action="https://22.e-goi.com//w/1e4e6ihPeaKRKTRSf7ea2204-70" className="form ">
       <input type="hidden" name="lista" value="1"/>
       <input type="hidden" name="cliente" value="1358209"/>
@@ -799,7 +814,7 @@ return(
       </div>
 
       <div className="text-center">
-        <input type="submit" className={`${style.botao} `} value="Receber checklist"/>
+        <input type="submit" className={`${style.botao} mb-5 `} value="Receber checklist"/>
       </div>
     
     </form> 
