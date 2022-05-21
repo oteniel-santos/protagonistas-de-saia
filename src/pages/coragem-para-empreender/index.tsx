@@ -11,11 +11,12 @@ export default function Coragem(){
 return(
 <>  
 <header className={style.topo}>
-  <div className="container">
-    <div className="row "> 
+  <div className={`${style.geral} container align-self-center `}>
+    <div className="row g-0 "> 
       {/* <main> */}
-          <section className="col-md-6 d-flex flex-column align-items-center topo-texto">
-            <div className={style['img-logo']}>  
+          <section className="col-md-7 col-lg-6 d-flex flex-column">
+            <div className=" text-md-start">
+            <div className={`${style.imgLogo} `}>  
               <Image 
                   src={logo} 
                   layout="responsive"
@@ -23,7 +24,6 @@ return(
                   >
               </Image>
               </div>
-            <div>
               <h2 className={style.subtitulo} >Checklist</h2>
               <h1 className={style.title}>
                   <span className={style.titulo}>Coragem para</span> <span className={style.Titulodestaque}>Empreender</span>
@@ -32,12 +32,12 @@ return(
             </div>    
           </section>
   
-          <section className="col-md-6 ">
+          <section className="col-md-5 col-lg-6 align-self-center">
             <div className={style.imagemTopo}>
               <Image
                 src={imgTopo} 
-                width="300"
-                height="385"
+                // width="auto"
+                // height="auto"
                 alt="Foto das proprietárias da Protagonistas de Saia"          
               ></Image>
             </div>
@@ -54,7 +54,7 @@ return(
   </div>
 </header>
 
-<main className="px-5">
+<main className={`${style.main} container `}>
     <section>
        
         <p> <strong> Chega de desperdiçar seu tempo </strong> 
@@ -78,7 +78,7 @@ return(
         </p>
     </section>
    
-    <section>
+    <section className="container px-5">
     <form method="post" action="https://22.e-goi.com//w/1e4e6ihPeaKRKTRSf7ea2204-70" className="form ">
       <input type="hidden" name="lista" value="1"/>
       <input type="hidden" name="cliente" value="1358209"/>
