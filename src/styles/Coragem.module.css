@@ -1,6 +1,6 @@
 /* Principal */
 .topo{
-  background: url('../../public/img/img1-rosa.png') no-repeat;
+  background: url('../../public/img/img1-rosa.webp') no-repeat;
   min-height: 100vh;
   background-position: center 100%;
   background-size: 150%;
@@ -11,7 +11,7 @@
 
 .topo::before{
   content:" ";
-  background: url('../../public/img/sementinhas-topo.png') no-repeat center center;
+  background: url('../../public/img/sementinhas-topo.webp') no-repeat center center;
   position: absolute;
   top:0px;
   left: 0px;
@@ -29,8 +29,8 @@
   bottom: 10%;
   right: 0;
   background-image: 
-    url('../../public/img/sementinhas-topo-2.png'), 
-    url('../../public/img/linha-topo.png');
+    url('../../public/img/sementinhas-topo-2.webp'), 
+    url('../../public/img/linha-topo.webp');
   
   background-position: 100% 80%, 100% 10%;
 
@@ -48,13 +48,24 @@
   font-weight: 500;
 }
 
+.paragrafoObrigado{
+  font-size: 1.5rem;
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 2.5rem 0;
+}
+
+.geral{
+  max-width: 992px;
+}
+
 .main {
   /* flex: 1; */
   max-width:992px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #444444;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -89,8 +100,13 @@
   font-weight: 600;
   margin: 0 auto;
   z-index: 5;
-  
 }
+
+.img-logo{
+  width: 200px;
+  background: #54aae1;
+}
+
 
 
 .Titulodestaque{
@@ -117,10 +133,32 @@
     padding: 1rem
   }
 
+  .subtitulo-g{
+    font-family: Nunito, sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .Titulodestaque-g{
+    font-size: 3rem;
+    color: #7b1a55;
+  }
+
+  .paragrafoTelegram{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
 
   @media screen and (min-width: 768px) {
     .imgLogo{
       margin: 0 0 3rem -10px;
+    }
+
+    .main{
+      padding:0 3rem;
     }
 
     .topo::before{
@@ -167,6 +205,10 @@
 
     .geral{
       max-width: 992px;
+    }
+
+    .main{
+      font-size: 1.3rem;
     }
 
     
