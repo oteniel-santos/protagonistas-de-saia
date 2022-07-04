@@ -40,15 +40,17 @@ return(
                 </strong> 
                 Caso não encontre, confira a lixeira do email e nos adicione aos seus contatos
               </p> 
-              <p className={` ${style.paragrafoTelegram} `}> 
-                Aproveite para entrar no nosso grupo silencioso no Telegram. <br />
-                Você vai ter acesso a conteúdos exclusivos sobre empreendorismo, transição de carreira e muito mais.  
-              </p>
-              <Link href="https://t.me/+BcKTrpKWFWM0NjMx">
-                  <button className={`${style.botao}`}>
-                    Entrar no grupo do Telegram
-                  </button>
-              </Link>
+              <div className={ `${style.caixaInsta}` }>
+                  <p className={` ${style.paragrafoTelegram} `}> 
+                    Aproveite para entrar no nosso grupo silencioso no Telegram. <br />
+                    Você vai ter acesso a conteúdos exclusivos sobre empreendorismo, transição de carreira e muito mais.  
+                  </p>
+                  <Link href="https://t.me/+BcKTrpKWFWM0NjMx">
+                      <button className={`${style.botao}`}>
+                        Entrar no grupo do Telegram
+                      </button>
+                  </Link>
+              </div>
             </div>    
           </section>
           

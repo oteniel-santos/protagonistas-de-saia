@@ -151,6 +151,16 @@
     margin: 0 auto;
   }
 
+  .caixaInsta{
+    border: solid 1px #FF6174;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px;
+    /* background-color: rgba(255, 97, 116, 0.1) */
+    background-color: rgba(255,255,255,0.6);
+  }
+
 
   @media screen and (min-width: 768px) {
     .imgLogo{

@@ -1,45 +1,38 @@
 /* Principal */
 .topo{
-  background: url('../../public/img/img-topo-03-2.webp') no-repeat ;
-  /* margin-bottom: 0; */
-  background-position: center 0;  
-  background-size: 100%;
+  background: url('../../public/img/img-topo-03-2.webp') no-repeat;
+  min-height: 100vh;
+  background-position: center 60%;
+  background-size: 150%;
   background-size: cover;
   text-align: center;
   display: flex;
-  min-height: 100vh;
 }
 
 .topo::before{
   content:" ";
-  background-image: 
-    url('../../public/img/sementes-01.webp'),
-    url('../../public/img/linha2.webp');
+  background: url('../../public/img/sementes-01.webp') no-repeat center center;
   position: absolute;
-  background-repeat: no-repeat, no-repeat;
-  /* border: 1px solid red; */
   top:0px;
   left: 0px;
-  width: 20%;
-  height: 70%;
-  background-size: 100%, 80%;
+  width: 6rem;
+  height: 8rem;
+  background-size: cover;
   z-index: 0;
-  background-position: 10% 0%, -10% 70%;
-  
 }
 
 .topo::after{
   content:" ";
   width: 20%;
-  height: 70%;
+  height: 100%;
   position: absolute;
   bottom: 30%;
   right: 0;
   background-image: 
     url('../../public/img/sementes-02.webp'), 
-    url('../../public/img/linha1.webp');
+    url('../../public/img/linha03.webp');
   
-  background-position: 100% 90%, 100% 0%;
+  background-position: 50% 80%, 10% 10%;
 
   background-size: 
       100px, 80px;
@@ -49,6 +42,19 @@
 }
 
 
+
+.chamadaTexto{
+  font-family: Nunito, sans-serif;
+  font-weight: 500;
+}
+
+.paragrafoObrigado{
+  font-size: 1.5rem;
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 2.5rem 0;
+  color: #FF6174;
+}
 
 .geral{
   max-width: 992px;
@@ -71,12 +77,14 @@
   width: 200px;
   height: 100px;
   margin-bottom: 1.8rem;
+  /* margin-left: -20px;   */
+  margin: 0 auto 50px auto;
 }
 
 .subtitulo{
   color: #f4f0f1;
   font-family: Nunito, sans-serif;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .imagemTopo{
@@ -85,37 +93,32 @@
 }
 
 .botao{
-  background: #7b1a55;
+  background: #FF6174;
   border-radius: 50px;
   padding: 15px 50px;
   border: none;
-  color: #f1f4f1;
+  color: #f4f0f1;
   font-weight: 600;
   margin: 0 auto;
   z-index: 5;
 }
 
-.botaotopo{
-  background: #f4f0f1;
-  border-radius: 50px;
-  padding: 25px 0;
-  border: none;
-  color: #7b1a55;
-  font-weight: 600;
-  /* margin: 0 auto; */
-  /* width: 100%; */
+.img-logo{
+  width: 200px;
+  background: #54aae1;
 }
+
 
 
 .Titulodestaque{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
-  color: #ffffff;
-  line-height: 1.3em
+  color: #f4f0f1;
+  line-height: 0.8em
 }
 
 .titulo{
-  color: #ffffff;
+  color: #f4f0f1;
   font-family:'Dancing Script' ;
   font-size: 3.5rem;
   line-height: 0.5em;
@@ -123,12 +126,40 @@
 
 
   .topo2{
-    background: url('../../public/img/img1-rosa.webp') no-repeat;
+    background: url('../../public/img/img1-rosa.png') no-repeat;
     min-height: 100vh;
     background-position: center top;
     background-size: 150%;
     text-align: center;
     padding: 1rem
+  }
+
+  .subtitulo-g{
+    font-family: Nunito, sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .Titulodestaque-g{
+    font-size: 3rem;
+    color: #FFFFFF;
+  }
+
+  .paragrafoTelegram{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .caixaInsta{
+    border: solid 1px #FF6174;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px;
+    /* background-color: rgba(255, 97, 116, 0.1) */
+    background-color: rgba(255,255,255);
   }
 
 
@@ -137,14 +168,13 @@
       margin: 0 0 3rem -10px;
     }
 
-
     .main{
       padding:0 3rem;
     }
 
     .topo::before{
-      width: 15%;
-      height: 70%;
+      width: 7rem;
+      height: 9rem;
     }
 
     .imagemTopo{
@@ -176,43 +206,22 @@
       .chamadaTexto{
         text-align: left;
       }
-
-      .topo::after{
-        content:" ";
-        width: 15%;
-        height: 70%;
-        position: absolute;
-        bottom: 30%;
-        right: 0;
-        /* border: 1px solid red; */
-        background-image: 
-          url('../../public/img/sementes-02.webp'), 
-          url('../../public/img/linha1.webp');
-        
-        background-position: 100% 90%, 100% 0%;
-        background-size: 
-            100%, 50%;
-
-        
-      }
   }
 
   @media screen and (min-width: 992px) {
-    .geral{
-      max-width: 992px;
+    .imagemTopo{
+      margin-top: -3rem;
+      width: 450px;
     }
 
-    .topo{
-      background-position: center 40%;
+    .geral{
+      max-width: 992px;
     }
 
     .main{
       font-size: 1.3rem;
     }
 
-    .botaotopo{
-      width: 50%;
-    }
     
     .titulo{
       font-size: 5rem;
@@ -224,8 +233,14 @@
     }
 
     .topo::before{
-      width: 12%;
-      height: 70%;
+      width: 10rem;
+      height: 12rem;
     }
+
+    
+.topo::after{
+  background-size: 
+      200px, 20px;  
+}
 
   }
