@@ -98,20 +98,24 @@ return(
    
     <section className="container px-4 bg-light mt-4 pt-5 px-3">
       <h2 id="form">Preencha seus dados abaixo para receber seu checklist</h2>
-      <form className="needs-validation" method="post" encType="multipart/form-data" action="//22.mktid9.com//w/1e3e6nOOe2qsLollGae6f548385">
+      <form 
+          className="needs-validation" 
+          method="post" 
+          encType="multipart/form-data" 
+          action="//22.mktid9.com//w/1e3e6nOOe2qsLollGae6f548385">
         <input type="hidden" name="lista" value="1"/>
         <input type="hidden" name="cliente" value="1378128"/>
         <input type="hidden" name="lang" id="lang_id" value="br"/>
-        <input type="hidden" name="formid" id="formid" value="1"/>
+        <input type="hidden" name="formid" id="formid" value="3"/>
       <div className="form-group">
-        <label htmlFor="fname_1"  className="mt-4">Nome  *</label>
+        <label htmlFor="fname_3"  className="mt-4">Nome  *</label>
         <input 
             type="text" 
             required
             className="form-control" 
             placeholder="Digite seu nome" 
-            name="fname_1" 
-            id="fname_1" 
+            name="fname_3" 
+            id="fname_3" 
             defaultValue=""
         />
 
@@ -123,8 +127,8 @@ return(
         <input 
             type="email" 
             className="form-control"
-            name="email_2" 
-            id="email_2" 
+            name="email_4" 
+            id="email_4" 
             placeholder="digite seu melhor email"
             defaultValue=""
             required
@@ -136,6 +140,12 @@ return(
         <button className={`${style.botao} btn btn-primary mt-4 mb-4 mx-auto`} type="submit" > Quero meu checklist </button>
       </form>
     </section>   
+
+<section>
+
+</section>
+
+    
 </main>
 <div className="container mt-5">
   <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
