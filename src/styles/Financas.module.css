@@ -1,10 +1,11 @@
 /* Principal */
 .topo{
   background: url('../../public/img/img-topo-medio.webp') no-repeat ;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
+  padding: 50px;
   background-position: center 0;
-  background-size: 100%;
-  background-size: cover;
+  background-size: 200%;
+  /* background-size: contain; */
   text-align: center;
   display: flex;
 }
@@ -137,7 +138,7 @@
   }
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 500px) {
     .imgLogo{
       margin: 0 0 3rem -10px;
     }
@@ -145,10 +146,11 @@
     .topo{
       /* background: url('../../public/img/img-topo.webp') no-repeat ; */
       min-height: 80vh;
-      margin-bottom: 3rem;
-      background-position: center 80%;
-      background-size: 100%;
-      background-size: cover;
+      padding: 0;
+      margin-bottom: 0;
+      background-position: center 0%;
+      background-size: 150%;
+      /* background-size: cover; */
       text-align: center;
       display: flex;
     }
@@ -177,7 +179,7 @@
       }
 
       .botaotopo{
-        width: 50%;
+        width: 60%;
       }
 
       .botao{
@@ -211,9 +213,14 @@
         background-position: 100% 90%, 100% 0%;
         background-size: 
             100%, 50%;
-
-        
       }
+  }
+
+  @media screen and (min-width: 768px) {
+    .topo{
+      background-size: cover;
+      background-position: center 10%;
+    }
   }
 
   @media screen and (min-width: 992px) {
@@ -224,8 +231,8 @@
     .topo{
       /* background: url('../../public/img/img-topo.webp') no-repeat ; */
       min-height: 80vh;
-      margin-bottom: 3rem;
-      background-position: center 80%;
+      margin-bottom: 0;
+      background-position: center 60%;
       background-size: 100%;
       background-size: cover;
       text-align: center;
