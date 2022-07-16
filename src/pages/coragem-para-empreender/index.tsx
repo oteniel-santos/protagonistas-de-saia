@@ -104,7 +104,7 @@ return(
         </p>
 
         <p>
-          <strong>Para te ajudar nessa jornada, preparamos um checklis 100%</strong> gratuito que vai mapear seu momento atual e te ajudar
+          <strong>Para te ajudar nessa jornada, preparamos um checklist 100%</strong> gratuito que vai mapear seu momento atual e te ajudar
           a dar os primeiros passos no mundo do empreendedorismo.
         </p>
     </section>
@@ -143,7 +143,7 @@ return(
             required
             />
         <small className="form-text text-muted">
-          Não se preocupe, somos anti-span e nunca compartilharemos seu e-mail, com ninguém
+          Não se preocupe, somos anti-spam e nunca compartilharemos seu e-mail, com ninguém
         </small>
       </div>  
         <button className={`${style.botao} btn btn-primary mt-4 mb-4 mx-auto`} type="submit" > Quero meu checklist </button>

@@ -89,8 +89,14 @@ return(
           Mas, sabemos também que muitas vezes você está tão absorvida na linha de frente , no operacional, que não tem tempo para pensar estrategicamente ne seu negócio.
         </p>
         <p>
-          Justamente por isso, criamos esse guia prático para trazer luz aos pontos segos do seu negócio
-          Não perca tempo e baixe agroa mesmo seu guia, <strong> Totalmente gratuito.</strong>
+        Justamente por isso, criamos esse guia prático para trazer luz aos pontos cegos do seu negócio.
+        </p> 
+        
+        <p>
+          Não perca tempo e baixe agora mesmo seu guia, 
+              <strong>
+                  totalmente  gratuito.
+              </strong> 
         </p>
 
        
@@ -134,7 +140,7 @@ return(
             required
             />
         <small className="form-text text-muted">
-          Não se preocupe, somos anti-span e nunca compartilharemos seu e-mail, com ninguém
+          Não se preocupe, somos anti-spam e nunca compartilharemos seu e-mail, com ninguém
         </small>
       </div>  
         <button className={`${style.botao} btn btn-primary mt-4 mb-4 mx-auto`} type="submit" > Quero meu checklist </button>

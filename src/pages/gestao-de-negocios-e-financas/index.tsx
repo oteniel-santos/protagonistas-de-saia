@@ -124,7 +124,7 @@ return(
             required
             />
         <small className="form-text text-muted">
-          Não se preocupe, somos anti-span e nunca compartilharemos seu e-mail, com ninguém
+          Não se preocupe, somos anti-spam e nunca compartilharemos seu e-mail, com ninguém
         </small>
       </div>  
         <button className={`${style.botao} btn btn-primary mt-4 mb-4 mx-auto`} type="submit" > Quero meu checklist </button>
