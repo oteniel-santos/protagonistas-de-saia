@@ -28,7 +28,7 @@ return(
               <div>
                   <h2 className={`${style['subtitulo-g']} mt-4`}> OBRIGADA! </h2>
                   <h1 className={style.title}>
-                      <span className={`${style['Titulodestaque-g']} `}>Seu checklist foi enviado <br/> 
+                      <span className={`${style['Titulodestaque-g']} `}>Seu Guia de Oportunidades foi enviado <br/> 
                       para seu email</span>
                   </h1> 
               </div>  

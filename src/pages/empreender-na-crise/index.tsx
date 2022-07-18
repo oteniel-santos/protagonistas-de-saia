@@ -86,24 +86,21 @@ return(
         </p>
 
         <p>
-          Mas, sabemos também que muitas vezes você está tão absorvida na linha de frente , no operacional, que não tem tempo para pensar estrategicamente ne seu negócio.
+          Mas, sabemos também que muitas vezes você está tão absorvida na linha de frente , no operacional, que não tem tempo para pensar estrategicamente no seu negócio.
         </p>
         <p>
         Justamente por isso, criamos esse guia prático para trazer luz aos pontos cegos do seu negócio.
         </p> 
         
         <p>
-          Não perca tempo e baixe agora mesmo seu guia, 
-              <strong>
-                  totalmente  gratuito.
-              </strong> 
+          Não perca tempo e baixe agora mesmo seu guia <strong>totalmente gratuito.</strong> 
         </p>
 
        
     </section>
    
     <section className="container px-4 bg-light mt-4 pt-5 px-3">
-      <h2 id="form">Preencha seus dados abaixo para receber seu checklist</h2>
+      <h2 id="form">Preencha seus dados abaixo para receber seu guia</h2>
       <form 
           className="needs-validation" 
           method="post" 
