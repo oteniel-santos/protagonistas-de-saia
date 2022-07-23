@@ -36,7 +36,7 @@ return(
             <div className={`${style.chamadaTexto} d-none d-md-block text-center`}>
               <p className={` ${style.paragrafoObrigado} `}> 
                 <strong>
-                    Abra sua caixa de entrada e acesse o seu checklist <br />  
+                    Abra sua caixa de entrada e acesse o seu Guia de Oportunidades <br />  
                 </strong> 
                 Caso não encontre, confira a lixeira do email e nos adicione aos seus contatos
               </p> 

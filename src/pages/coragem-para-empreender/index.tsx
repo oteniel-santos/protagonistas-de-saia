@@ -5,29 +5,19 @@ import logo from '../../../public/img/logo-topo.webp'
 import imgTopo from '../../../public/img/foto-topo.webp'
 import logoSvg from '../../../public/img/logo-svg.svg'
 import Link from 'next/link'
+import Pixel from '../../components/Pixel'
 // import {Link }from 'react-router-dom'
 
 export default function Coragem(){
-
-function validation(){ 
-    window.addEventListener('load', function(){
-      var forms = document.getElementsByClassName('needs-validation');
-      var validation = Array.prototype.filter.call(forms, function(form){
-        form.addEventListener('submit', function(event){
-          if(form.checkValidity() === false){
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
- }
-
-
-return(
-<>  
-<header className={style.topo}>
+ 
+  return(
+    <>
+    
+  <div>
+    <Pixel name='FACEBOOK_PIXEL_1' />
+  </div>
+  
+  <header className={style.topo}>
   <div className={`${style.geral} container align-self-center `}>
     <div className="row g-0 "> 
       {/* <main> */}
