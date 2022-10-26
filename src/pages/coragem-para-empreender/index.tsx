@@ -54,10 +54,11 @@ export default function Coragem(){
           <section className="col-md-5 col-lg-6 align-self-center">
             <div className={style.imagemTopo}>
               <Image
-                src={imgTopo} 
-                // width="auto"
-                // height="auto"
-                alt="Foto das proprietárias da Protagonistas de Saia"          
+                src={imgTopo}
+                layout="responsive"
+                alt="Foto das proprietárias da Protagonistas de Saia"
+                width="300"
+                height= "auto"          
               ></Image>
             </div>
 
