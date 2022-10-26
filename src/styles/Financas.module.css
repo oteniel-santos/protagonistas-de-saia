@@ -160,7 +160,7 @@
       background-size: cover;
       text-align: center;
       display: flex;
-      
+      margin: 0 0 -5rem 0;
     }
 
     .main{
@@ -182,4 +182,17 @@
       height: 70%;
     }
 
+  }
+
+  
+  @media screen and (min-width: 1400px) {
+    .topo{
+      margin: 0 0 -2rem 0;
+    }
+  }
+  
+  @media screen and (min-width: 1500px) {
+    .topo{
+      margin: 0 0 0 0;
+    }
   }
