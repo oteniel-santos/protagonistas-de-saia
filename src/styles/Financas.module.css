@@ -142,6 +142,7 @@
     .topo{
       background-size: cover;
       background-position: center 10%;
+      margin: 0 0 -8rem 0;
     }
   }
 
@@ -159,6 +160,7 @@
       background-size: cover;
       text-align: center;
       display: flex;
+      
     }
 
     .main{
